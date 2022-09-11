@@ -1,9 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require("fs");
-const path = require("path");
-const axios = require("axios");
 const inquirer = require("inquirer");
-
+const util = require("util");
 // TODO: Create an array of questions for user input
 const questions = [ {
     type: "input",
